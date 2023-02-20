@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TO DO JavaScript</title>
     <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
@@ -22,16 +22,16 @@
                 <form class="d-flex flex-row align-items-center flex-wrap">
 
 
-                    <option selected>Choose...</option>
+                    <option selected></option>
                     </select>
 
                     <div class="form-check my-1 me-sm-2">
-                        <input type="text" class="form-" />
+                        <input type="text" class="form-inout task-input" />
 
                     </div>
 
 
-                    <button type="submit" class="btn btn-primary my-1"><svg xmlns="http://www.w3.org/2000/svg"
+                    <button type="submit" class="btn btn-primary my-1 task-btn "><svg xmlns="http://www.w3.org/2000/svg"
                             width="24" height="24" fill="white" class="bi bi-plus-lg" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
                                 d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
@@ -41,34 +41,33 @@
             </div>
         </div>
         <!--  Result Start -->
-         <div class="row mt-5 ">
+        <div class="row mt-5 ">
             <div class="col-lg-6 mx-auto border shadow p-2  ">
-              <div class="row">
-                <div class="col-lg-8">
-                    <h4 class="h1todo "> Study </h4>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h4 class="h1todo "> Study </h4>
+                    </div>
+                    <!-- Buttom Chek  Start -->
+                    <div class="col-lg-2">
+                        <button type="submit" class="btn btn-primary my-1">
+                            <i class="fa-solid fa-check  "></i>
+                        </button>
+                        <!-- Buttom Chek end -->
+                    </div>
+                    <!-- Button Trash Start -->
+                    <div class="col-lg-2">
+                        <button type="submit" class="btn btn-danger my-1">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        <!-- Buttom Trash end -->
+                    </div>
                 </div>
-                <!-- Buttom 1Start -->
-                <div class="col-lg-2">
-                    <button type="submit" class="btn btn-primary my-1">
-                        <i class="fa-solid fa-check  "></i>
-                    </button>
-                    <!-- Buttom 1 end -->
-                </div>
-                <!-- Button 2 Start -->
-                <div class="col-lg-2">
-                    <button type="submit" class="btn btn-danger my-1">
-                        <i class="fa-solid fa-trash"></i>
-                       </button>
-                    <!-- Buttom 2 end -->
-                </div>
-              </div>
             </div>
-         </div>
+        </div>
     </div>
 
-    
 
-
+    m
 
 
 
